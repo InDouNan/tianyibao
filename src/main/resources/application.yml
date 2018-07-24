@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    #连接MySQL
+    url: jdbc:mysql://rm-bp1qigmkzd4zhxe01xo.mysql.rds.aliyuncs.com:3306/recruitment?useUnicode=true&amp;autoReconnect=true&amp;failOverReadOnly=false&amp;characterEncoding=utf-8
+    username: root
+    password: DNFXL2018@dounan
+    driver-class-name: com.mysql.jdbc.Driver
+
+    redis:
+        host: 192.168.1.101
+        port: 6379
+        password:
+        # 连接超时时间（毫秒）
+        timeout: 10000
+        pool:
+          max-idle: 20
+          min-idle: 5
+          max-active: 20
+          max-wait: 2
+spring.jmx.default-domain: test
+mybatis:
+  configuration:
+   #配置项：开启下划线到驼峰的自动转换. 作用：将数据库字段根据驼峰规则自动注入到对象属性。
+   map-underscore-to-camel-case: false
+
+logging:
+  level:
+   #打印SQL信息
+   com.hehe.mapper: debug
