@@ -1,5 +1,6 @@
 package demo;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.ServletComponentScan;
@@ -30,7 +31,7 @@ public SpringUtil springUtil2(){return new SpringUtil();}
 	public static void main(String[] args) {
 
 
-//		SpringApplication.run(DemoApplication.class, args);
+	SpringApplication.run(DemoApplication.class, args);
 //		ConfigurableApplicationContext context=SpringApplication.run(DemoApplication.class, args);
 //		GetAccessTokenServlet asyncTaskService =context.getBean(GetAccessTokenServlet.class);
 //		try {
