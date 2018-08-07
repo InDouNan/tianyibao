@@ -2,10 +2,11 @@ package demo;
 import java.util.HashMap;
 import java.util.Map;
 
+import Until.RedisUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 @SpringBootApplication
 public class TestRedis {
 
@@ -30,6 +31,7 @@ public class TestRedis {
         Map<String,Object> map=new HashMap<>();
         map.put("name", "meepo");
         map.put("pwd", "password");
+        redisUtil.hmset("user", map);
         redisUtil.hmset("user", map);
         System.out.println(redisUtil.hget("user","name"));
     }

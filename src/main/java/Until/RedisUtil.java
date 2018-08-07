@@ -1,4 +1,4 @@
-package demo;
+package Until;
 
 import java.util.List;
 import java.util.Map;
@@ -6,6 +6,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 /**
@@ -14,6 +15,7 @@ import org.springframework.util.CollectionUtils;
  * 针对所有的Set 都是以s开头的方法                    不含通用方法
  * 针对所有的List 都是以l开头的方法
  */
+@Component
 public class RedisUtil {
     private RedisTemplate<String, Object> redisTemplate;
 
