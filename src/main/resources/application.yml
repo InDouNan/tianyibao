@@ -5,7 +5,14 @@ spring:
     username: root
     password: DNFXL2018@dounan
     driver-class-name: com.mysql.jdbc.Driver
-
+  mqtt:
+         host: tcp://0.0.0.0:61613
+         clientid: mqttjs_e8022a4d0b
+         topic: good,test,yes
+         username: admin
+         password: password
+         timeout: 10
+         keepalive: 20
 spring.jmx.default-domain: test
 mybatis:
   configuration:
@@ -16,3 +23,5 @@ logging:
   level:
    #打印SQL信息
    com.hehe.mapper: debug
+   #mq配置
+

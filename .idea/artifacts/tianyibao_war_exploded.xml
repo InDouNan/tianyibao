@@ -7,17 +7,26 @@
           <element id="module-output" name="tianyibao" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-integration:2.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+          <element id="library" level="project" name="Maven: org.springframework.integration:spring-integration-core:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.0.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.retry:spring-retry:1.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+          <element id="library" level="project" name="Maven: org.springframework.integration:spring-integration-stream:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.integration:spring-integration-mqtt:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.0.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.0.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:5.0.4.RELEASE" />
-          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.1.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
           <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.24.Final" />
           <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.24.Final" />
           <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.24.Final" />
